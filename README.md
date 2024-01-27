@@ -1,117 +1,116 @@
-## ✨ Laravel Point of Sale
+## Punto de venta Laravel
 
-Point of Sale Management and Invoice build with Laravel 10 and MySql.
+Gestión de Punto de Venta y generación de Facturas con Laravel 10 y MySql.
 
 ![Dashboard](https://user-images.githubusercontent.com/71541409/234483153-38816efd-c261-4585-bb93-28639508f5e3.jpg)
 
-## 😎 Features
-- POS
-- Orders
-  - Pending Orders
-  - Complete Orders
-  - Pending Due
-- Stock Management
-- Products
-  - Products
-  - Categories
-- Employees
-- Customers
-- Suppliers
-- Salary
-  - Advance Salary
-  - Pay Salary
-  - History Pay Salary
-- Attendance
-- Role and Permission
-- Users Management
-- Backup Database
+## Características⭐
+- punto de venta
+- Pedidos
+  - Ordenes pendientes
+  - Órdenes completas
+  - Pendiente de vencimiento
+- Gestion de Stocks
+- Productos
+  - Productos
+  - Categorías
+- Empleados
+- Clientes
+- Proveedores
+- Salario
+  - Salario por adelantado
+  - Pagar salario
+  - Historial de salario
+- Asistencia
+- Rol y permiso
+- Gestión de usuarios
+- Base de datos de respaldo
 
-## 🚀 How to Use
+## Cómo utilizar😎
 
-1.  **Clone Repository or Download**
+1.  **Clonar repositorio o descargar**
 
     ```bash
-    $ git clone https://github.com/fajarghifar/laravel-point-of-sale
+    $ git clone https://github.com/yorchavez9/sistema-punto-de-venta.git
     ```
-1. **Setup**
+1. **Configuración**
     ```bash
-    # Go into the repository
+    # Ir al repositorio
     $ cd laravel-point-of-sale
 
-    # Install dependencies
+    # Instalar dependencias
     $ composer install
 
-    # Open with your text editor
+    # Abre con tu editor de texto
     $ code .
     ```
 1. **.ENV**
 
-    Rename or copy the `.env.example` file to `.env`
+    Cambie el nombre o copie el `.env.example` archivo a `.env`
     ```bash
-    # Generate app key
+    # Generar clave de aplicación
     $ php artisan key:generate
     ```
-1. **Custom Faker Locale**
+1. **Configuración regional personalizada del farsante**
 
-    To set Faker Locale, add this line of code to the end `.env` file.
+    Para configurar Faker Locale, agregue esta línea de código al final `.env` archivo.
     ```bash
-    # In this case, the locale is set to Indonesian
+    # En este caso, la configuración regional es Perú
 
     FAKER_LOCALE="id_ID"
     ```
 
-1. **Setup Database**
+1. **Configurar base de datos**
 
-    Setup your database credentials in your `.env` file.
+    Configure las credenciales de su base de datos en su archivo `.env`
 
-1. **Seed Database**
+1. **Base de datos de semillas**
     ```bash
     $ php artisan:migrate:fresh --seed
 
-    # Note: If showing an error, please try to rerun this command.
+    #Nota: Si muestra un error, intente volver a ejecutar este comando.
     ```
-1. **Create Storage Link**
+1. **Crear enlace de almacenamiento**
 
     ```bash
     $ php artisan storage:link
     ```
-1. **Run Server**
+1. **Ejecutar servidor**
+
+    ```bash
+    $ php artisan serve
+    ```
+1. **Acceso al sistema**
+
+    Intente iniciar sesión con nombre de usuario: `admin` y password: `password`
+
+## 🚀 Configuración
+1. **Gráfico de configuración**
+
+    Abrir documento `./config/cart.php`. Puede establecer un impuesto, número de formato, etc.
+    > Para más detalles, escríbame al: https://wa.link/lckvt3
+
+1. **Crear enlace de almacenamiento**
+
+    ```bash
+    $ php artisan storage:link
+    ```
+1. **Ejecutar servidor**
 
     ```bash
     $ php artisan serve
     ```
 1. **Login**
 
-    Try login with username: `admin` and password: `password`
+    Intente iniciar sesión con nombre de usuario: `admin` y password: `password`
 
-## 🚀 Config
-1. **Config Chart**
+    o usuario: `user` y password: `password`
 
-    Open file `./config/cart.php`. You can set a tax, format number, etc.
-    > For More details, visit this link [hardevine/shoppingcart](https://packagist.org/packages/hardevine/shoppingcart).
-1. **Create Storage Link**
+## 📝 Contactos
 
-    ```bash
-    $ php artisan storage:link
-    ```
-1. **Run Server**
+Whatsapp: https://wa.link/lckvt3
+Correo: djjmygm160399@gmail.com
 
-    ```bash
-    $ php artisan serve
-    ```
-1. **Login**
 
-    Try login with username: `admin` and password: `password`
-
-    or username: `user` and password: `password`
-
-## 📝 Contributing
-
-If you have any ideas to make it more interesting, please send a PR, or create an issue for a feature request.
-
-# 🤝 License
-
-### [MIT](LICENSE)
-
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar)
+> Github [@Apuuray](https://github.com/yorchavez9) &nbsp;&middot;&nbsp;
+> Youtube [@Apuuray](https://youtube.com/@apuuray6483?si=jO7rK7gU8AWzAnXW)
