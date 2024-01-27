@@ -2,7 +2,13 @@
 
 Gestión de Punto de Venta y generación de Facturas con Laravel 10 y MySql.
 
-![Dashboard](https://user-images.githubusercontent.com/71541409/234483153-38816efd-c261-4585-bb93-28639508f5e3.jpg)
+![Inicio del sistema](./public/capturas/01.png)
+![Login](./public/capturas/02.png)
+![Dashboard](./public/capturas/03.png)
+![PUnto de venta](./public/capturas/04.png)
+![productos](./public/capturas/05.png)
+![asistencia](./public/capturas/06.png)
+![Usuarios](./public/capturas/07.png)
 
 ## Características⭐
 - punto de venta
