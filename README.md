@@ -36,7 +36,7 @@ Gestión de Punto de Venta y generación de Facturas con Laravel 10 y MySql.
 1. **Configuración**
     ```bash
     # Ir al repositorio
-    $ cd laravel-point-of-sale
+    $ cd sistema-punto-de-venta
 
     # Instalar dependencias
     $ composer install
